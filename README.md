@@ -1,14 +1,10 @@
 # asOnUbuntuInstall.sh
 
+- set permissions with: chmod 0755 asOnUbuntuInstall.sh
+- then run with ./asOnUbuntuInstall.sh
+- taken from https://www.linuxbabe.com/ubuntu/install-android-studio-ubuntu-16-04
+
 ```
-#!/bin/bash -x
-
-# asOnUbuntuInstall.sh
-
-# set permissions with: chmod 0755 asOnUbuntuInstall.sh
-# then run with ./asOnUbuntuInstall.sh
-# taken from https://www.linuxbabe.com/ubuntu/install-android-studio-ubuntu-16-04
-
 # Install Java 8
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update -y
